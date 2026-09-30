@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Bot Casino</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 { color: #facc15; }
+        .btn {
+            background-color: #22c55e;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎲 Casino Online 🎰</h1>
+    <p>¡Bienvenido a la Web App oficial de tu bot!</p>
+    <button class="btn" onclick="alert('¡Apuesta realizada!')">Jugar Ahora</button>
+
+    <script>
+        // Inicializar la Web App de Telegram
+        let tg = window.Telegram.WebApp;
+        tg.expand();
+    </script>
+</body>
+</html>
